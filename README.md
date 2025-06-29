@@ -1,4 +1,8 @@
+
+
 # CSV Viewer in CLI with C
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project is a simple C application that reads a CSV (Comma-Separated Values) file and prints it to the terminal as a clean, aligned table.
 
