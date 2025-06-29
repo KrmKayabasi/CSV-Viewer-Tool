@@ -1,4 +1,4 @@
- CSV Tabulator in C
+# CSV Viewer in CLI with C
 
 This project is a simple C application that reads a CSV (Comma-Separated Values) file and prints it to the terminal as a clean, aligned table.
 
@@ -16,13 +16,11 @@ You can either compile the project using any standard C compiler yourself or use
 gcc -std=c99 -Wall -Werror csv-viewer.c -o csv
 ```
 
- ## For Windows ![windows_logo_icon_132880](https://github.com/user-attachments/assets/b944437b-47db-4f24-9ed3-b0d44da7b0f4)#
-
-
-
+ ## [![My Skills](https://skillicons.dev/icons?i=windows)](https://skillicons.dev) Windows
 Add the directory of the executable file to Enviroment Variables -> System Variables -> Path
 
-## For Unix(Linux/Macos) [![My Skills](https://skillicons.dev/icons?i=linux,apple)](https://skillicons.dev)
+
+## [![My Skills](https://skillicons.dev/icons?i=linux,apple)](https://skillicons.dev) Unix(Linux/Macos)
 Add this line to the shell configuration file
 ```bash
 export PATH="$PATH:/path/to/your/executable_directory" 
