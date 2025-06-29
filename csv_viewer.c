@@ -95,6 +95,8 @@ int parse_string(char* string,char* separator,char*** parsed_array){
 //Getting the biggest lenght for each column set them to array column_width
 int get_column_width(char* csv_file_name,char*separator, int** column_width){
     FILE* CSV_FILE = fopen(csv_file_name,"r");
+
+    
     
     
     char line[600];
@@ -186,6 +188,14 @@ int main(int argc, char* argv[]){
     "\n[ERROR] Wrong Usage!\n[ERROR] Proper Usage: ./Q2 <csv_file_name>\n");
         return -1;
     }
+    FILE* FILE = fopen(argv[1],"r");
+
+    if(FILE == NULL){
+
+        printf("Could not open the file <%s>\n", argv[1]);
+        return -1;
+    }
+
 
     int* column_width = NULL;
     tabulate(argv[1],detect_delimiter(argv[1]),&column_width);
