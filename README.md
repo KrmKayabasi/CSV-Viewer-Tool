@@ -35,4 +35,4 @@ export PATH="$PATH:/path/to/your/executable_directory"
 csv <file_name>
 ```
 ## TODO
-[ ] Add table view options 
+- [ ] Add table view options 
