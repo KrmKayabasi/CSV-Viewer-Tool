@@ -34,4 +34,5 @@ export PATH="$PATH:/path/to/your/executable_directory"
 ```bash
 csv <file_name>
 ```
-
+## TODO
+[ ] Add table view options 
